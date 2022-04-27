@@ -1,0 +1,165 @@
+/*-------------------------------------------------------class selectors*/
+body{
+    background: radial-gradient(white, black);
+   width:100%;
+   background-size: auto;
+   margin: 0px;
+   text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: rgb(13 7 7 / 72%);
+}
+h1{
+
+font-size: 90px;
+color: rgb(13 7 7 / 72%);
+margin: 50px auto 0 auto;
+line-height: 1;
+font-family: 'Sacramento', cursive;
+
+}
+
+h2{
+font-family:'PT Serif', serif, cursive;;;
+font-size: 3rem;
+color: rgb(13 7 7 / 72%);
+font-weight: normal;
+}
+h3{
+font-family:'Orelega One', cursive;;
+color: rgb(92 49 49);
+
+}
+a{
+    color: blueviolet;
+}
+hr{
+border-style: none;
+border-top: dotted;
+border-width: 4px;
+border-color:  rgb(13 7 7 / 42%);
+width: 20px;
+margin: 100px auto;
+}
+p{
+    line-height: 2;
+}
+/*-------------------------------------------------------class selectors*/
+
+.top-container{
+padding: 45px;
+position: relative;
+background-color: rgb(13, 7, 7);
+}
+
+
+.middle-container{
+background-color: transparent;
+
+}
+ .bottom-container{
+padding: 50px 0 20px;
+background-color: #000000;
+color: aliceblue;
+} 
+.intro {
+    width: -webkit-fill-available;
+    margin: 150px;
+    height: auto;
+}
+
+.profile-pic{
+height: 250px;
+width: 250px;
+margin: auto ;
+border-radius: 100%;
+}
+.skill-row{
+    width: 50%;
+    margin: 150px auto;
+    text-align: justify;
+    line-height: 2;
+}
+
+.first-skill{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.second-skill{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 100%;
+}
+
+
+/*--------------------------------------------------------------id selectors*/
+
+
+.unorder li {
+    color:blueviolet;
+    display:inline;
+     margin:auto;
+    width:30%;
+    display:inline;
+    padding:15px;
+   
+}
+.unorder li a:hover{
+    text-decoration: none;
+   color:black;
+ 
+   top:0px;
+}
+#tophi{
+margin-top: 0px;
+}
+
+/*--------------------------------------------------------------id selectors*/
+.contact-me{
+width: 30%;
+margin: 50px auto;
+
+}
+
+.btn{
+    background: #828282;
+    background-image: -webkit-linear-gradient(top, #828282, #000000);
+    background-image: -moz-linear-gradient(top, #828282, #000000);
+    background-image: -ms-linear-gradient(top, #828282, #000000);
+    background-image: -o-linear-gradient(top, #828282, #000000);
+    background-image: linear-gradient(to bottom, #828282, #000000);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    line-height: 4;
+}
+  
+.btn:hover{
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #7a717a);
+    background-image: -moz-linear-gradient(top, #000000, #7a717a);
+    background-image: -ms-linear-gradient(top, #000000, #7a717a);
+    background-image: -o-linear-gradient(top, #000000, #7a717a);
+    background-image: linear-gradient(to bottom, #000000, #7a717a);
+    text-decoration: none;
+}
+/*--------------------------------------------------------------id selectors*/
+
+.contact-icon{
+    margin: auto 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.contact-icon:hover{
+    height: 35px;
+    width: 35px;
+    margin: auto;
+}
